@@ -132,11 +132,11 @@ p{
 }
 .services-card-bg{
   background-color: #ffffff;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   box-sizing: border-box;
-  border: 2px dotted #C5DCFF;
+  /* border: 2px dotted #C5DCFF; */
   /* border-radius: 25px; */
-  padding-top: 32px;
+  /* padding-top: 32px; */
 }
 .services-card-bg .right_symbol span img{
   top: -15px;
