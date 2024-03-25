@@ -298,8 +298,8 @@ p{
   right: 0;
   width: 80px;
   height: 80px;
-  border-bottom: 1px dashed white;
-  border-right: 1px solid white;
+  border-bottom: 1px dashed #b01f23;
+  border-right: 1px solid #b01f23;
   border-radius: 0 0 7px 0;
   content: "";
   transition: all 0.3s ease;
@@ -311,13 +311,12 @@ p{
   left: 0;
   width: 80px;
   height: 80px;
-  border-top: 1px solid white;
-  border-left: 1px dashed white;
+  border-top: 1px solid #002967;
+  border-left: 1px dashed #002967;
   border-radius: 7px 0 0 0;
   content: "";
   transition: all 0.3s ease;
 }
-
 /* .swiper .swiper-slide:hover, .swiper .swiper-slide.active {
   background: linear-gradient(
     135deg,
@@ -876,3 +875,19 @@ p{
   text-decoration: none;
 }
 /*--------------------------- Footer Ends Here ------------------------*/
+
+.back_top {
+  font-size: 50px;
+  color: #002967;
+  font-weight: 600;
+  display: block;
+  text-shadow: 2px 6px 3px #adabab;
+  position: fixed;
+  z-index: 999;
+  bottom: 60px;
+  right: 30px;
+  cursor: pointer;
+  display: none;
+  max-width: 45px;
+  max-height: 45px;
+}
